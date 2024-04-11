@@ -1,6 +1,6 @@
-# Smile Digital Health Coding Test
+# Smile Digital Health Coding Assignment
 
-This project is a skeleton project for querying data from the [Smile CDR Test Server](https://try.smilecdr.com/baseR4/Patient)
+This project contains instructions for the FE coding assignment.
 
 ### Getting Started:
 
@@ -12,27 +12,9 @@ This project is a skeleton project for querying data from the [Smile CDR Test Se
 
 * [ ] **Please, do not fork this repo.** Create your own private GitHub repository to do your work in.
 
-### Task 1:
+### Task:
 
-* [ ] Create a patient view with patients fetched from `https://try.smilecdr.com/baseR4/Patient`. The patients should be sorted by name & birthdate (if a birthdate is in the record). 
-
-* [ ] Display the first & last names, birthdate, address, gender & phone number.
- 
-* [ ] Ensure the table is responsive. Ensure there is proper error handling for missing elements in the data.
-
-* [ ] Time the request. Output the time on the footer of the page in a human readable format.
-
-* [ ] Add a search function to the page. Add two inputs to your view - one for first name, and one for last name.  Make an API call to `https://try.smilecdr.com/baseR4/Patient?given=<userinput>&family=<userinput>` that searches for a `Patient` based on the names passed in. Replace `<userinput>` with the data from the inputs. If only one name is entered in the inputs, modify the query to only use either the first or last name entered.
-
-* [ ] Add a function to reset the search results in the table.
-
-* [ ] Apply validation to the inputs - the boxes cannot contain non-alphabetic characters.
-
-* [ ] Commit your work.
-
-### Task 2:
-
-* [ ] Generate a questionnaire view. In the view, _dynamically_ generate a form and capture the answer for the following questions :- 
+* [ ] Generate a questionnaire view. In the view, _dynamically_ generate a form and capture the answer for the following questions. Use the [`questionnaire.json`](assets/questionnaire.json) to validate the behavior.
 
     -    Do you have allergies? **Radio Button (True, False)**
     -    What is your gender? **Select (Male, Female, Other)**
@@ -42,10 +24,6 @@ This project is a skeleton project for querying data from the [Smile CDR Test Se
     -    Do you smoke? **Radio Button (True, False)**
     -    Do you drink alchohol? **Radio Button (True, False)**
 
-* [ ] Display the results of the form based on submit at the bottom of the page. 
+* [ ] Add a submit button that displays the entered results of the form. 
 
 * [ ] Commit your work.
-
-* [ ] **Bonus :-** If dynamic form is generated using the [`questionnaire.json` file](assets/questionnaire.json)  in the `assets` folder. The form should have validation applied to each input. 
-
-* [ ] **Bonus :-** Using the results from the form, generate a [`QuestionnaireResponse`](https://www.hl7.org/fhir/questionnaireresponse.html). The `QuestionnaireResponse` should follow the structure outlined in the [Resource Content Section](https://www.hl7.org/fhir/questionnaireresponse.html#resource)
