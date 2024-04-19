@@ -6,7 +6,7 @@ This project contains instructions for the FE coding assignment.
 
 * [ ] Take a few minutes to familiarize yourself with the [FHIR Standard](http://hl7.org/fhir/) for health data exchange. In particular, you might want to read the [Executive Summary](http://hl7.org/fhir/summary.html) and the [Developer Introduction](http://hl7.org/fhir/overview-dev.html)
 
-* [ ] Use whatever library & framework you're most comfortable with.
+* [ ] The use of the Angular framework is highly recommended
   
 * [ ] Create your own GitHub project and copy the contents of this repository into your own project.
 
